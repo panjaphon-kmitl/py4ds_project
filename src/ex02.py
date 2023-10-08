@@ -13,7 +13,7 @@ def convert_to_fahrenheit(celsius):
     Returns:
         float: The temperature in Fahrenheit.
     """
-    # TODO : complete this
+    # fix : complete this
     fahrenheit = (9/5) * celsius + 32
     return fahrenheit
 
@@ -28,6 +28,6 @@ def convert_to_celsius(f):
     Returns:
     - float: The temperature in Celsius.
     """
-    # TODO : complete this
+    # fix : complete this
     c = (f - 32) * (5/9)
     return c
