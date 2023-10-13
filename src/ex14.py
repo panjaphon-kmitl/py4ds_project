@@ -14,4 +14,4 @@ def average(num_list: list) -> float:
     - float: The average of the numbers in the list.
       If the list is empty, returns 0.
     """
-    pass
+    return 0 if num_list == [] else sum(num_list) / len(num_list)
