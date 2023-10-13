@@ -16,5 +16,15 @@ def get_time_every_15_min():
     Returns:
         str: The generated time string.
     """
-    # TODO : complete this
-    pass
+    # FIX : complete this
+    out = """"""
+    for suffix in ['am', 'pm']:
+        hour = 0
+        minutes = ['00', '15', '30', '45']
+        while hour < 12:
+            for i in minutes:
+                if hour == 0:
+                    print(f'12:{i} {suffix}')
+                else:
+                    print(f'{hour}:{i} {suffix}')
+            hour += 1
